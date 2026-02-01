@@ -14,7 +14,7 @@ public class BinarySearchTests
     [TestCase(8, 7)]
     [TestCase(9, 8)]
     [TestCase(10, null)]
-    public void sorting_on_any_element_gives_the_expected_result(int value, int? expected)
+    public void searching_on_any_element_gives_the_expected_result(int value, int? expected)
     {
         // Arrange 
         int[] elements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
