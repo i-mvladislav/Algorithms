@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Algorithms.BinarySearch/Algorithms.BinarySearch.csproj" />
+    <Project Path="src/Algorithms.SelectionSort/Algorithms.SelectionSort.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Algorithms.Tests/Algorithms.Tests.csproj" />

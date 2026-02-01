@@ -22,6 +22,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\src\Algorithms.BinarySearch\Algorithms.BinarySearch.csproj" />
+      <ProjectReference Include="..\..\src\Algorithms.SelectionSort\Algorithms.SelectionSort.csproj" />
     </ItemGroup>
 
 </Project>
