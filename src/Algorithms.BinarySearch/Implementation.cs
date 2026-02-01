@@ -2,6 +2,9 @@ namespace Algorithms.BinarySearch;
 
 public static class Implementation
 {
+    /// <summary>
+    /// Время выполнения по нотации О большое: O(log n)
+    /// </summary>
     public static int? CustomBinarySearch<T>(this IList<T> collection, T value) where T : IComparable<T>
     {
         var low = 0;
