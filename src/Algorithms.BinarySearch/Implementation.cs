@@ -3,6 +3,7 @@ namespace Algorithms.BinarySearch;
 public static class Implementation
 {
     /// <summary>
+    /// Бинарный поиск
     /// Время выполнения по нотации О большое: O(log n)
     /// </summary>
     public static int? CustomBinarySearch<T>(this IList<T> collection, T value) where T : IComparable<T>
