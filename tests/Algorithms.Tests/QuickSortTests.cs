@@ -1,0 +1,20 @@
+using Algorithms.QuickSort;
+
+namespace Algorithms.Tests;
+
+public class QuickSortTests
+{
+    public static IEnumerable<object[]> TestData()
+    {
+        yield return [new[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 }, new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }];
+    }
+    [TestCaseSource(nameof(TestData))]
+    public void sorting_on_any_element_gives_the_expected_result(int[] values, int[] expected)
+    {
+        // Arrange & Act
+        var result = values.QuickSort();
+        
+        // Assert
+        Assert.That(result, Is.EquivalentTo(expected));
+    }
+}
