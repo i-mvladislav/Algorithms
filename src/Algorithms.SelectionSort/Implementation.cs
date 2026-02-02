@@ -3,6 +3,7 @@ namespace Algorithms.SelectionSort;
 public static class Implementation
 {
     /// <summary>
+    /// Сортировка выбором
     /// Время выполнения по нотации О большое: O(n * 1/2 * n) or O(n * n)
     /// </summary>
     public static T[] SelectionSort<T>(this IList<T> collection) where T : IComparable<T>
