@@ -3,7 +3,8 @@ namespace Algorithms.QuickSort;
 public static class Implementation
 {
     /// <summary>
-    /// Время выполнения по нотации О большое: O(n log n)
+    /// Быстрая сортировка
+    /// Время выполнения по нотации О большое: O(n log n) или в худшем случае O(n * n)
     /// </summary>
     public static T[] QuickSort<T>(this IList<T> collection) where T : IComparable<T>
     {
