@@ -2,6 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/Algorithms.BinarySearch/Algorithms.BinarySearch.csproj" />
     <Project Path="src/Algorithms.BreadthFirstSearch/Algorithms.BreadthFirstSearch.csproj" />
+    <Project Path="src/Algorithms.DepthFirstSearch/Algorithms.DepthFirstSearch.csproj" />
     <Project Path="src/Algorithms.QuickSort/Algorithms.QuickSort.csproj" />
     <Project Path="src/Algorithms.SelectionSort/Algorithms.SelectionSort.csproj" />
   </Folder>
